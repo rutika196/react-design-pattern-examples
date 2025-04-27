@@ -17,13 +17,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   const handleDownloadNotes = () => {
-    // When you have the PDF file, replace this with the actual PDF URL
-    const pdfUrl = '/react-design-patterns-notes.pdf'; 
+    // Link to the PDF file
+    const pdfUrl = '/assets/react_design_patterns_notes.pdf'; 
     
     // Create a link element
     const link = document.createElement('a');
     link.href = pdfUrl;
-    link.download = 'React-Design-Patterns-Notes.pdf';
+    link.download = 'react_design_patterns_notes.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
