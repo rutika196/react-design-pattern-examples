@@ -5,7 +5,7 @@
 
 import React, {useEffect, useState} from "react";
 import {UserCard} from "./UserCard";
-import { withLoadingSpinner } from "./hoc/WithLoadingSoinner";
+import { withLoadingSpinner } from "./hoc/withLoadingSpinner";
 import { UserList } from "./UserList/UserList";
 
 const UserListWithSpinner = withLoadingSpinner(UserList);
