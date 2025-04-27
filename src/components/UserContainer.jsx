@@ -1,4 +1,3 @@
-
 // This component is responsible for fetching user data and passing it to the UserCard component.
 // It handles the logic and state management. It is a container component that uses the UserCard component to display the user data.
 
