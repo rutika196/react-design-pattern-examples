@@ -1,12 +1,41 @@
-# React + Vite
+# React Design Patterns Learning Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive demonstration of common React design patterns with a glossy, modern UI. This project showcases various patterns including:
 
-Currently, two official plugins are available:
+- Higher-Order Components (HOC)
+- Render Props
+- Compound Components
+- Custom Hooks
+- Context API
+- Error Boundaries
+- Controlled vs Uncontrolled Components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript/JSX
+- CSS for styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+To run the project locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+## Features
+
+- Modern, glossy UI with smooth gradients
+- Responsive design that works on all devices
+- Light/Dark theme support
+- Pattern examples with detailed explanations
+
+## Deployment
+
+This project is deployable to Vercel with a single click from GitHub.
